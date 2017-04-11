@@ -1,10 +1,10 @@
-import { AngularUdemyTrainingPage } from './app.po';
+import { TrainingPage } from './app.po';
 
-describe('angular-udemy-training App', () => {
-  let page: AngularUdemyTrainingPage;
+describe('training App', () => {
+  let page: TrainingPage;
 
   beforeEach(() => {
-    page = new AngularUdemyTrainingPage();
+    page = new TrainingPage();
   });
 
   it('should display message saying app works', () => {
